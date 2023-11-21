@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="559.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.agencia.controller.VtnConsulDestinosController">
+   <children>
+      <Pane layoutY="-1.0" prefHeight="289.0" prefWidth="559.0" style="-fx-background-color: #EFC512;" />
+      <ImageView fitHeight="266.0" fitWidth="495.0" layoutX="43.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/Montaña.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="120.0" layoutY="67.0" prefHeight="37.0" prefWidth="321.0" text="Consultar Destinos 🔎" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TxtDestinos" layoutX="126.0" layoutY="132.0" prefHeight="25.0" prefWidth="309.0" promptText="Buscar " />
+      <TableView fx:id="tablaDestinos" layoutX="34.0" layoutY="310.0" prefHeight="222.0" prefWidth="416.0" style="-fx-background-color: white;">
+        <columns>
+          <TableColumn fx:id="colNombre" prefWidth="75.0" style="-fx-background-color: #EFC512;" text="Nombre" />
+          <TableColumn fx:id="colCiudad" prefWidth="75.0" style="-fx-background-color: #EFC512;" text="Ciudad" />
+            <TableColumn fx:id="colDescripcion" prefWidth="192.66668701171875" style="-fx-background-color: #EFC512;" text="Descripción" />
+            <TableColumn fx:id="colClima" minWidth="0.0" prefWidth="69.33331298828125" style="-fx-background-color: #EFC512;" text="Clima" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnConsultar" layoutX="246.0" layoutY="178.0" mnemonicParsing="false" style="-fx-background-color: White;" text="Consultar">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnRegresar" layoutX="37.0" layoutY="563.0" mnemonicParsing="false" onAction="#regresar" style="-fx-background-color: #EFC512;" text="Regresar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnEliminar" layoutX="468.0" layoutY="334.0" mnemonicParsing="false" onAction="#eliminar" style="-fx-background-color: red;" text="Eliminar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnEditar" layoutX="474.0" layoutY="379.0" mnemonicParsing="false" style="-fx-background-color: green;" text="Editar" onAction="#editelo" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="599.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.agencia.controller.VtnConsGuiasController">
+   <children>
+      <Pane layoutY="-1.0" prefHeight="289.0" prefWidth="599.0" style="-fx-background-color: #008209;">
+         <children>
+            <ImageView fitHeight="289.0" fitWidth="515.0" layoutX="42.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/Guiar.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="TxtBuscarGuias" layoutX="135.0" layoutY="137.0" prefHeight="25.0" prefWidth="309.0" promptText="Buscar " />
+            <Label layoutX="80.0" layoutY="68.0" prefHeight="37.0" prefWidth="439.0" text="Consultar Guías Turisticos 🔎" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="30.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnConsultar" layoutX="260.0" layoutY="179.0" mnemonicParsing="false" style="-fx-background-color: White;" text="Consultar">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <TableView fx:id="tableGuias" layoutX="158.0" layoutY="310.0" prefHeight="222.0" prefWidth="245.0" style="-fx-background-color: white;">
+         <columns>
+            <TableColumn fx:id="IDGuia" prefWidth="75.0" style="-fx-background-color: #008209;" text="ID" />
+            <TableColumn fx:id="Nombre" prefWidth="75.0" style="-fx-background-color: #008209;" text="Nombre" />
+            <TableColumn fx:id="Experiencia" prefWidth="94.0" style="-fx-background-color: #008209;" text="Experiencia" />
+         </columns>
+      </TableView>
+      <Button fx:id="btnRegresar" layoutX="266.0" layoutY="551.0" mnemonicParsing="false" onAction="#regresar" style="-fx-background-color: #5E17EB;" text="Regresar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnEliminar" layoutX="471.0" layoutY="390.0" mnemonicParsing="false" onAction="#eliminarGuia" style="-fx-background-color: red;" text="Eliminar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnEditar" layoutX="477.0" layoutY="344.0" mnemonicParsing="false" style="-fx-background-color: green;" text="Editar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

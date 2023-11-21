@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="476.0" prefWidth="636.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.agencia.controller.VtnAgGuiasController">
+   <children>
+      <ImageView fx:id="JboxIdiomas" fitHeight="370.0" fitWidth="636.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/Volar.png" />
+         </image>
+      </ImageView>
+      <Pane prefHeight="125.0" prefWidth="636.0" style="-fx-background-color: #96C6E0;">
+         <children>
+            <Label layoutX="125.0" layoutY="26.0" prefHeight="37.0" prefWidth="322.0" text="Historias vivas, contadas por guías">
+               <font>
+                  <Font name="Gabriola" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="207.0" layoutY="71.0" prefHeight="37.0" prefWidth="267.0" text="Agrega un Guía Turistico">
+               <font>
+                  <Font name="Gabriola" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <TextField fx:id="TxtIdentificacion" layoutX="43.0" layoutY="218.0" prefHeight="25.0" prefWidth="289.0" />
+      <Label layoutX="43.0" layoutY="187.0" text="Número de Identificación" textFill="WHITE">
+         <font>
+            <Font name="Microsoft JhengHei UI Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="263.0" text="Nombre" textFill="WHITE">
+         <font>
+            <Font name="Microsoft JhengHei UI Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TxtNombre" layoutX="43.0" layoutY="291.0" prefHeight="25.0" prefWidth="289.0" />
+      <Label layoutX="46.0" layoutY="337.0" text="Experiencia" textFill="WHITE">
+         <font>
+            <Font name="Microsoft JhengHei UI Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TxtExperiencia" layoutX="43.0" layoutY="367.0" prefHeight="79.0" prefWidth="289.0" />
+      <Button fx:id="btnAgregar" layoutX="454.0" layoutY="333.0" mnemonicParsing="false" onAction="#agregarGuia" prefHeight="28.0" prefWidth="95.0" style="-fx-background-color: #5E17EB;" text="Agregar" textFill="WHITE">
+         <font>
+            <Font name="Weather Icons Regular" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnRegresar" onAction="#regresar" layoutX="454.0" layoutY="379.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="95.0" style="-fx-background-color: #96C6E0;" text="Regresar">
+         <font>
+            <Font name="Weather Icons Regular" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="379.0" layoutY="187.0" text="Idiomas" textFill="WHITE">
+         <font>
+            <Font name="Microsoft JhengHei UI Bold" size="14.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="Espanol" layoutX="381.0" layoutY="222.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="104.0" text="Español" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="Ingles" layoutX="381.0" layoutY="254.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="104.0" text="Inglés" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="Portugues" layoutX="381.0" layoutY="282.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="104.0" text="Portugués" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="Frances" layoutX="485.0" layoutY="222.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="104.0" text="Francés" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="Aleman" layoutX="485.0" layoutY="254.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="104.0" text="Aleman" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </CheckBox>
+   </children>
+</AnchorPane>

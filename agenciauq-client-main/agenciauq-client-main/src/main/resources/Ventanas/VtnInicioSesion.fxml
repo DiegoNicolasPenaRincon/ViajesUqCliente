@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #96C6E0;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.agencia.controller.VtnInicioSesionController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="169.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/Agencia de viajes (1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="56.0" layoutX="369.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/candado.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="189.0" layoutY="143.0" text="Usuario" textFill="#004aad">
+         <font>
+            <Font name="Stencil" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="189.0" layoutY="200.0" text="Contraseña" textFill="#004aad">
+         <font>
+            <Font name="Stencil" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TxtUsuario" layoutX="297.0" layoutY="141.0" prefHeight="25.0" prefWidth="243.0" promptText="Nombre de Usuario" />
+      <PasswordField fx:id="TxtContraseña" layoutX="298.0" layoutY="198.0" prefHeight="25.0" prefWidth="243.0" promptText="Contraseña" />
+      <Button fx:id="btnIngresar" layoutX="268.0" layoutY="280.0" mnemonicParsing="false" onAction="#mostrarVentanaMenu" style="-fx-background-color: #5E17EB;" text="Ingresar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnRegistrarse" layoutX="418.0" layoutY="280.0" mnemonicParsing="false" onAction="#mostrarVentanaRegistro" style="-fx-background-color: #5E17EB;" text="Registrarse" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

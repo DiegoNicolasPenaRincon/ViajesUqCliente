@@ -1,0 +1,6 @@
+Santiago,111,1234,3152157717,santiago.betancourtv@uqvirtual.edu.co,Armenia
+Julian,222,xd,312,julian23bedoya@gmail.com,armenia
+Juan,333,dino,310,sss,333
+Santiago,111,1234,315,santiago.betancourtv@uqvirtual.edu.co,Colombia
+Julian,222,xd,312,julian23bedoya@gmail.com,armenia
+Juan,333,dino,310,sss,333

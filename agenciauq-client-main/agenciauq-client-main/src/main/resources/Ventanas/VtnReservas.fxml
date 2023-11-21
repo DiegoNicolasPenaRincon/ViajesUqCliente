@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="617.0" prefWidth="713.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.agencia.controller.VtnReservasController">
+   <children>
+      <Pane prefHeight="113.0" prefWidth="713.0" style="-fx-background-color: #2E0089;">
+         <children>
+            <Label layoutX="281.0" layoutY="26.0" prefHeight="31.0" prefWidth="229.0" text="Tu aventura comienza aquí" textFill="#fffdfd">
+               <font>
+                  <Font name="Gabriola" size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutY="515.0" prefHeight="103.0" prefWidth="713.0" style="-fx-background-color: #2E0089;">
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="187.0" layoutX="535.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/Foto.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="275.0" layoutY="41.0" prefHeight="31.0" prefWidth="229.0" text="Explora. Sueña. Descubre." textFill="#fffdfd">
+               <font>
+                  <Font name="Gabriola" size="26.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="100.0" fitWidth="178.0" layoutX="56.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/Carro.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <ImageView fitHeight="128.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="115.0" fitWidth="200.0" layoutX="514.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/Cielo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="115.0" fitWidth="200.0" layoutX="77.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/Bosque.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="347.0" layoutY="119.0" prefHeight="37.0" prefWidth="84.0" text="Reservas">
+         <font>
+            <Font name="Gabriola" size="30.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tablaReservas" layoutX="16.0" layoutY="216.0" prefHeight="243.0" prefWidth="568.0" style="-fx-background-color: white;">
+         <columns>
+            <TableColumn fx:id="colFecha" prefWidth="98.00000190734863" text="Fecha de Viaje" />
+            <TableColumn fx:id="colEstado" prefWidth="81.99999237060547" style="-fx-background-color: #4800D8;" text="Estado" />
+            <TableColumn fx:id="colPaquete" prefWidth="128.0000457763672" style="-fx-background-color: #4800D8;" text="Paquete Turistico" />
+            <TableColumn fx:id="colPersonas" prefWidth="98.66668701171875" style="-fx-background-color: #4800D8;" text="Num. Personas" />
+            <TableColumn fx:id="colPrecio" prefWidth="80.6666259765625" style="-fx-background-color: #4800D8;" text="Precio" />
+            <TableColumn fx:id="colGuia" prefWidth="77.99996948242188" text="Guia" />
+         </columns>
+      </TableView>
+      <Button fx:id="btnCalificar" layoutX="614.0" layoutY="242.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="84.0" style="-fx-background-color: gray;" text="Calificar " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnEliminar" layoutX="614.0" layoutY="309.0" mnemonicParsing="false" onAction="#cancelarReserva" prefHeight="25.0" prefWidth="84.0" style="-fx-background-color: red;" text="Cancelar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <TextField fx:id="TxtBuscar" layoutX="65.0" layoutY="172.0" prefHeight="25.0" prefWidth="270.0" promptText="Buscar Reserva" />
+      <Button fx:id="btnbuscar" layoutX="354.0" layoutY="172.0" mnemonicParsing="false" style="-fx-background-color: White;" text="Buscar">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

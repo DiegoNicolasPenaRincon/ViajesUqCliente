@@ -1,0 +1,5 @@
+español
+ingles
+aleman
+chino
+portugues

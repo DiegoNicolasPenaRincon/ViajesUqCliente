@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="436.0" prefWidth="628.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.agencia.controller.VtnPerfilController">
+   <children>
+      <Pane layoutY="-7.0" prefHeight="110.0" prefWidth="628.0" style="-fx-background-color: #96C6E0;">
+         <children>
+            <Label layoutX="283.0" layoutY="36.0" prefHeight="37.0" prefWidth="62.0" text="Perfil ">
+               <font>
+                  <Font name="Gabriola" size="30.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="70.0" fitWidth="79.0" layoutX="62.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/Agencia de viajes Uq.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="39.0" layoutY="83.0" prefHeight="17.0" prefWidth="116.0" text="Agencia de Viajes UQ">
+               <font>
+                  <Font name="Tempus Sans ITC" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <ImageView fitHeight="135.0" fitWidth="126.0" layoutX="21.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="170.0" layoutY="155.0" text="Nombre">
+         <font>
+            <Font name="Microsoft JhengHei UI Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="140.0" layoutY="240.0" text="Correo electrónico">
+         <font>
+            <Font name="Microsoft JhengHei UI Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="164.0" layoutY="276.0" text="Télefono">
+         <font>
+            <Font name="Microsoft JhengHei UI Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="161.0" layoutY="305.0" text="Dirección ">
+         <font>
+            <Font name="Microsoft JhengHei UI Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblNombre" layoutX="258.0" layoutY="155.0" text="Label" />
+      <Label fx:id="lblCorreo" layoutX="272.0" layoutY="240.0" text="Label" />
+      <Label fx:id="lblTelefono" layoutX="265.0" layoutY="276.0" text="Label" />
+      <Label fx:id="lblDireccion" layoutX="265.0" layoutY="305.0" text="Label" />
+      <ImageView fitHeight="416.0" fitWidth="133.0" layoutX="495.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/PerfilFoto.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="508.0" layoutY="137.0" prefHeight="223.0" prefWidth="108.0" text="La vida es &#10;    corta, &#10;¡viaja más!" textAlignment="JUSTIFY" textFill="#fffdfd" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font name="Gabriola" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnEditar" layoutX="147.0" layoutY="383.0" mnemonicParsing="false" onAction="#mostrarEditarPerfil" prefHeight="28.0" prefWidth="95.0" style="-fx-background-color: #5E17EB;" text="Editar Perfil" textFill="WHITE">
+         <font>
+            <Font name="Weather Icons Regular" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="170.0" layoutY="191.0" text="Cedula">
+         <font>
+            <Font name="Microsoft JhengHei UI Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblCedula" layoutX="258.0" layoutY="191.0" text="Label" />
+   </children>
+</Pane>

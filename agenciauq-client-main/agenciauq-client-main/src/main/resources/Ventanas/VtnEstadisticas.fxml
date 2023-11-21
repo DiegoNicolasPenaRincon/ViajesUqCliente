@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="672.0" prefWidth="668.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.agencia.controller.VtnEstadisticasController">
+   <children>
+      <Pane prefHeight="118.0" prefWidth="667.0" style="-fx-background-color: #96C6E0;">
+         <children>
+            <Label layoutX="310.0" layoutY="41.0" prefHeight="37.0" prefWidth="127.0" text="Estadisticas">
+               <font>
+                  <Font name="Gabriola" size="30.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="79.0" fitWidth="83.0" layoutX="66.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/Agencia de viajes Uq.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="51.0" layoutY="88.0" prefHeight="17.0" prefWidth="116.0" text="Agencia de Viajes UQ">
+               <font>
+                  <Font name="Tempus Sans ITC" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button fx:id="btnMasDestinos" layoutX="356.0" layoutY="151.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="160.0" style="-fx-background-color: #1e90ff;" text="Destinos Más Buscados" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnDestMasReservados" layoutX="57.0" layoutY="151.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="160.0" style="-fx-background-color: #1e90ff;" text="Destinos más Reservados" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <BarChart layoutX="14.0" layoutY="215.0" prefHeight="190.0" prefWidth="232.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </BarChart>
+      <BarChart layoutX="320.0" layoutY="215.0" prefHeight="190.0" prefWidth="232.0">
+         <xAxis>
+            <CategoryAxis side="BOTTOM" />
+         </xAxis>
+         <yAxis>
+            <NumberAxis side="LEFT" />
+         </yAxis>
+      </BarChart>
+      <BarChart layoutX="44.0" layoutY="462.0" prefHeight="190.0" prefWidth="232.0">
+         <xAxis>
+            <CategoryAxis side="BOTTOM" />
+         </xAxis>
+         <yAxis>
+            <NumberAxis side="LEFT" />
+         </yAxis>
+      </BarChart>
+      <Button fx:id="btnPtesMasReservados" layoutX="57.0" layoutY="415.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="176.0" style="-fx-background-color: #1e90ff;" text="Paquetes Más Reservados" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnMejorGuias" layoutX="356.0" layoutY="415.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="176.0" style="-fx-background-color: #1e90ff;" text="Guías Mejor Puntuados" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <BarChart layoutX="356.0" layoutY="462.0" prefHeight="190.0" prefWidth="232.0">
+         <xAxis>
+            <CategoryAxis side="BOTTOM" />
+         </xAxis>
+         <yAxis>
+            <NumberAxis side="LEFT" />
+         </yAxis>
+      </BarChart>
+   </children>
+</Pane>

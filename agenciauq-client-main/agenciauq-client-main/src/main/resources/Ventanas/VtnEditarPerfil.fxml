@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="570.0" prefWidth="596.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.agencia.controller.VtnEditarPerfilController">
+   <children>
+      <Pane prefHeight="95.0" prefWidth="637.0" style="-fx-background-color: #96c6e0;">
+         <children>
+            <Label layoutX="237.0" layoutY="29.0" prefHeight="37.0" prefWidth="163.0" text="Editor de Perfil">
+               <font>
+                  <Font name="Gabriola" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <TextField fx:id="TxtNuevoNombre" layoutX="36.0" layoutY="146.0" prefHeight="25.0" prefWidth="229.0" promptText="Nuevo Nombre de Usuario" />
+      <TextField fx:id="TxtNuevoCorreo" layoutX="36.0" layoutY="292.0" prefHeight="25.0" prefWidth="229.0" promptText="Nuevo Correo Electrónico" />
+      <TextField fx:id="TxtNuevoNumero" layoutX="36.0" layoutY="377.0" prefHeight="25.0" prefWidth="229.0" promptText="Nuevo Número de Télefono" />
+      <Label layoutX="36.0" layoutY="104.0" prefHeight="29.0" prefWidth="151.0" text="Nombre de Usuario ">
+         <font>
+            <Font name="Weather Icons Regular" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="178.0" prefHeight="24.0" prefWidth="106.0" text="Contraseña">
+         <font>
+            <Font name="Weather Icons Regular" size="14.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="TxtNuevaContra" layoutX="36.0" layoutY="215.0" prefHeight="25.0" prefWidth="229.0" promptText="Nueva Contraseña" />
+      <Label layoutX="40.0" layoutY="256.0" prefHeight="24.0" prefWidth="143.0" text="Correo Electrónico">
+         <font>
+            <Font name="Weather Icons Regular" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="335.0" prefHeight="29.0" prefWidth="151.0" text="Número de Télefono">
+         <font>
+            <Font name="Weather Icons Regular" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="420.0" prefHeight="29.0" prefWidth="151.0" text="Dirección de Residencia">
+         <font>
+            <Font name="Weather Icons Regular" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TxtNuevaResidencia" layoutX="36.0" layoutY="461.0" prefHeight="25.0" prefWidth="229.0" promptText="Nueva Dirección" />
+      <ImageView fitHeight="158.0" fitWidth="151.0" layoutX="374.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="btnAgNuevaFoto" layoutX="382.0" layoutY="118.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="136.0" style="-fx-background-color: #96c6e0;" text="Agregar Nueva Foto">
+         <font>
+            <Font name="Weather Icons Regular" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCambiar" layoutX="64.0" layoutY="512.0" mnemonicParsing="false" onAction="#editarPerfil" prefHeight="28.0" prefWidth="95.0" style="-fx-background-color: #5E17EB;" text="Cambiar" textFill="WHITE">
+         <font>
+            <Font name="Weather Icons Regular" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnRegresar" layoutX="402.0" layoutY="406.0" mnemonicParsing="false" onAction="#regresarPerfil" prefHeight="28.0" prefWidth="95.0" style="-fx-background-color: #1e90ff;" text="Regresar" textFill="WHITE">
+         <font>
+            <Font name="Weather Icons Regular" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

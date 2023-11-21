@@ -1,0 +1,240 @@
+nov 20, 2023 8:31:46 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 8:31:46 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Clientes cargados correctamente
+nov 20, 2023 8:31:46 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Administradores cargados correctamente
+nov 20, 2023 8:31:46 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente cargarDestinos
+INFO: Destinos cargados correctamente
+nov 20, 2023 8:31:46 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente cargarPaquetesTuristicos
+INFO: Paquetes Turisticos cargados correctamente
+nov 20, 2023 8:31:46 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente cargarGuiasTuristicos
+WARNING: El archivo Guias Turisticos esta vacio o no existe.
+nov 20, 2023 8:31:46 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente cargarReservas
+INFO: Reservas cargadas correctamente
+nov 20, 2023 9:39:31 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 9:39:31 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Clientes cargados correctamente
+nov 20, 2023 9:39:31 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Administradores cargados correctamente
+nov 20, 2023 9:39:31 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente cargarDestinos
+INFO: Destinos cargados correctamente
+nov 20, 2023 9:39:31 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente cargarPaquetesTuristicos
+INFO: Paquetes Turisticos cargados correctamente
+nov 20, 2023 9:39:31 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente cargarGuiasTuristicos
+WARNING: El archivo Guias Turisticos esta vacio o no existe.
+nov 20, 2023 9:39:31 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente cargarReservas
+INFO: Reservas cargadas correctamente
+nov 20, 2023 10:25:55 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 10:25:55 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente cargarClientes
+SEVERE: writing aborted; java.io.NotSerializableException: co.edu.uniquindio.agencia.model.Clientes
+nov 20, 2023 10:30:04 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 10:30:05 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Clientes cargados correctamente
+nov 20, 2023 10:30:05 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Administradores cargados correctamente
+nov 20, 2023 10:30:05 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente cargarDestinos
+INFO: Destinos cargados correctamente
+nov 20, 2023 10:30:05 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente cargarPaquetesTuristicos
+INFO: Paquetes Turisticos cargados correctamente
+nov 20, 2023 10:30:05 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente cargarGuiasTuristicos
+WARNING: El archivo Guias Turisticos esta vacio o no existe.
+nov 20, 2023 10:30:05 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente cargarReservas
+INFO: Reservas cargadas correctamente
+nov 20, 2023 11:01:10 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 11:01:10 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Clientes cargados correctamente
+nov 20, 2023 11:01:10 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Administradores cargados correctamente
+nov 20, 2023 11:01:10 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente cargarDestinos
+INFO: Destinos cargados correctamente
+nov 20, 2023 11:01:10 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente cargarPaquetesTuristicos
+INFO: Paquetes Turisticos cargados correctamente
+nov 20, 2023 11:01:10 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente cargarGuiasTuristicos
+WARNING: El archivo Guias Turisticos esta vacio o no existe.
+nov 20, 2023 11:01:10 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente cargarReservas
+INFO: Reservas cargadas correctamente
+nov 20, 2023 11:02:47 A. M. co.edu.uniquindio.agencia.model.AgenciaCliente verificarInicio
+INFO: Se ha iniciado sesion como cliente
+nov 20, 2023 4:19:17 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 4:32:43 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 4:35:02 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 4:35:32 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 4:36:34 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 4:38:56 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 4:47:09 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 4:49:08 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 4:53:33 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 4:53:33 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Clientes cargados correctamente
+nov 20, 2023 4:57:26 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 4:57:26 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Clientes cargados correctamente
+nov 20, 2023 4:58:39 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 4:58:39 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Clientes cargados correctamente
+nov 20, 2023 5:02:54 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 5:02:54 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Clientes cargados correctamente
+nov 20, 2023 5:15:27 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 5:15:27 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Clientes cargados correctamente
+nov 20, 2023 5:15:27 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Administradores cargados correctamente
+nov 20, 2023 5:22:03 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 5:22:03 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Clientes cargados correctamente
+nov 20, 2023 5:22:03 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Administradores cargados correctamente
+nov 20, 2023 5:41:43 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 5:41:43 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Clientes cargados correctamente
+nov 20, 2023 5:41:43 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Administradores cargados correctamente
+nov 20, 2023 5:42:59 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 5:42:59 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Clientes cargados correctamente
+nov 20, 2023 5:42:59 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Administradores cargados correctamente
+nov 20, 2023 5:43:41 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente verificarInicio
+INFO: Se ha iniciado sesion como cliente
+nov 20, 2023 5:45:30 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 5:45:30 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Clientes cargados correctamente
+nov 20, 2023 5:45:30 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Administradores cargados correctamente
+nov 20, 2023 5:45:46 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente verificarInicio
+INFO: Se ha iniciado sesion como cliente
+nov 20, 2023 5:53:20 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 5:53:20 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Clientes cargados correctamente
+nov 20, 2023 5:53:20 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Administradores cargados correctamente
+nov 20, 2023 5:57:32 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 5:57:32 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Clientes cargados correctamente
+nov 20, 2023 5:57:32 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Administradores cargados correctamente
+nov 20, 2023 6:08:37 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 6:08:37 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Clientes cargados correctamente
+nov 20, 2023 6:08:37 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Administradores cargados correctamente
+nov 20, 2023 6:25:43 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 6:25:44 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Clientes cargados correctamente
+nov 20, 2023 6:25:44 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Administradores cargados correctamente
+nov 20, 2023 6:27:09 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 6:27:09 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Clientes cargados correctamente
+nov 20, 2023 6:27:09 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Administradores cargados correctamente
+nov 20, 2023 8:23:54 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 8:23:55 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Clientes cargados correctamente
+nov 20, 2023 8:23:55 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Administradores cargados correctamente
+nov 20, 2023 8:34:55 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 8:34:55 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Clientes cargados correctamente
+nov 20, 2023 8:34:56 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Administradores cargados correctamente
+nov 20, 2023 8:35:56 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente registrarCliente
+SEVERE: Connection reset
+nov 20, 2023 9:46:38 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 9:46:39 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente cargarClientes
+SEVERE: writing aborted; java.io.NotSerializableException: co.edu.uniquindio.agencia.model.Clientes
+nov 20, 2023 9:48:19 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 9:48:19 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente cargarClientes
+SEVERE: writing aborted; java.io.NotSerializableException: co.edu.uniquindio.agencia.model.Clientes
+nov 20, 2023 9:51:56 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 9:51:57 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente cargarClientes
+SEVERE: writing aborted; java.io.NotSerializableException: co.edu.uniquindio.agencia.model.Clientes
+nov 20, 2023 9:59:28 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 9:59:28 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente cargarClientes
+SEVERE: writing aborted; java.io.NotSerializableException: co.edu.uniquindio.agencia.model.Clientes
+nov 20, 2023 10:03:43 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 10:03:43 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Clientes cargados correctamente
+nov 20, 2023 10:03:43 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Administradores cargados correctamente
+nov 20, 2023 10:04:01 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente verificarInicio
+INFO: Se ha iniciado sesion como cliente
+nov 20, 2023 10:05:52 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 10:05:52 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Clientes cargados correctamente
+nov 20, 2023 10:05:52 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Administradores cargados correctamente
+nov 20, 2023 10:06:04 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente verificarInicio
+INFO: Se ha iniciado sesion como administrador
+nov 20, 2023 10:08:02 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente verificarInicio
+INFO: Se ha iniciado sesion como cliente
+nov 20, 2023 10:13:15 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 10:13:15 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Clientes cargados correctamente
+nov 20, 2023 10:13:16 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Administradores cargados correctamente
+nov 20, 2023 10:14:34 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente verificarInicio
+INFO: Se ha iniciado sesion como cliente
+nov 20, 2023 10:15:25 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 10:15:25 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Clientes cargados correctamente
+nov 20, 2023 10:15:25 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Administradores cargados correctamente
+nov 20, 2023 10:16:09 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente verificarInicio
+INFO: Se ha iniciado sesion como cliente
+nov 20, 2023 10:20:25 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Se crea una nueva instancia de Agencia de Viajes.
+nov 20, 2023 10:20:25 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Clientes cargados correctamente
+nov 20, 2023 10:20:25 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente <init>
+INFO: Administradores cargados correctamente
+nov 20, 2023 10:20:37 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente verificarInicio
+INFO: Se ha iniciado sesion como cliente
+nov 20, 2023 10:21:18 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente verificarInicio
+INFO: Se ha iniciado sesion como cliente
+nov 20, 2023 10:23:07 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente crearReserva
+WARNING: El viaje no puede ser en una fecha anterior a la actual
+nov 20, 2023 10:23:15 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente crearReserva
+WARNING: El viaje no puede ser en una fecha anterior a la actual
+nov 20, 2023 10:23:51 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente verificarFechasConPaquete
+INFO: Fecha dentro del rango
+nov 20, 2023 10:24:52 P. M. co.edu.uniquindio.agencia.model.AgenciaCliente cancelarReserva
+INFO: Reserva Cancelada

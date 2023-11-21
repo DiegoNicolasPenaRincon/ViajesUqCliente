@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.7" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="co.edu.uniquindio.agencia.model.Destino">
+    <void property="ciudad">
+     <string>Quindio</string>
+    </void>
+    <void property="clima">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>co.edu.uniquindio.agencia.model.Clima</class>
+      <string>CALIDO</string>
+     </object>
+    </void>
+    <void property="descripcion">
+     <string>Parque de atracciones cultural del eje cafetero</string>
+    </void>
+    <void property="nombre">
+     <string>Parque del cafe</string>
+    </void>
+    <void property="rutasImagenes">
+     <object class="java.util.ArrayList">
+      <void method="add">
+       <string>https://th.bing.com/th/id/R.978db653974d475a2863fc734c55dfc5?rik=7XHbgDThVn2iVA&amp;riu=http%3a%2f%2fwww.travelombia.com%2fwp-content%2fuploads%2f2015%2f01%2fparque-del-cafe-main.jpg&amp;ehk=qT%2ffzwRDhvnHs7tqew1f88mHfV23escmEPjnl7sP7gw%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0</string>
+      </void>
+      <void method="add">
+       <string>https://th.bing.com/th/id/R.8fa7778c8089a8c16f35ab357933a532?rik=Ge4tlcf4u9C2fQ&amp;riu=http%3a%2f%2fwww.mylifeisajourney.com%2fuploads%2f6%2f3%2f4%2f1%2f6341410%2fparque-del-cafe-view_orig.jpg&amp;ehk=lcsa5RLfTynSpu4y0%2fLrafI4yq9A57eu3QoYrTPce3c%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0</string>
+      </void>
+      <void method="add">
+       <string>https://th.bing.com/th/id/R.451f01636ab1ede2116be32279774b9c?rik=ylwh8%2bD%2fGXAnIw&amp;riu=http%3a%2f%2fwww.mylifeisajourney.com%2fuploads%2f6%2f3%2f4%2f1%2f6341410%2froller-coaster-parque-del-cafe-quindio_orig.jpg&amp;ehk=qFyQMMs856VTQX4IWzc0wRrn4%2fbso%2bOrgb%2bDvnn3BpE%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="co.edu.uniquindio.agencia.model.Destino">
+    <void property="ciudad">
+     <string>aaaaaaa</string>
+    </void>
+    <void property="clima">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>co.edu.uniquindio.agencia.model.Clima</class>
+      <string>NEVADO</string>
+     </object>
+    </void>
+    <void property="descripcion">
+     <string>13131131</string>
+    </void>
+    <void property="nombre">
+     <string>2021</string>
+    </void>
+    <void property="rutasImagenes">
+     <object class="java.util.ArrayList">
+      <void method="add">
+       <string>a</string>
+      </void>
+      <void method="add">
+       <string>a</string>
+      </void>
+      <void method="add">
+       <string>a</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

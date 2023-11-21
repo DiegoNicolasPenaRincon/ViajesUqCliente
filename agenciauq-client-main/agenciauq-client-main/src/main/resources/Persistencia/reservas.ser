@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="20.0.2" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="co.edu.uniquindio.agencia.model.Reservas">
+    <void property="cliente">
+     <object class="co.edu.uniquindio.agencia.model.Clientes">
+      <void property="cedula">
+       <string>111</string>
+      </void>
+      <void property="contrasena">
+       <string>1234</string>
+      </void>
+      <void property="correo">
+       <string>santiago.betancourtv@uqvirtual.edu.co</string>
+      </void>
+      <void property="direccion">
+       <string>Colombia</string>
+      </void>
+      <void property="nombre">
+       <string>Santiago</string>
+      </void>
+      <void property="telefono">
+       <string>315</string>
+      </void>
+     </object>
+    </void>
+    <void property="estado">
+     <object class="java.lang.Enum" id="EstadoReserva0" method="valueOf">
+      <class>co.edu.uniquindio.agencia.model.EstadoReserva</class>
+      <string>CANCELADA</string>
+     </object>
+    </void>
+    <void property="fechaSolicitud">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2023-11-19</string>
+     </object>
+    </void>
+    <void property="fechaViaje">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2023-11-22</string>
+     </object>
+    </void>
+    <void property="numPersonas">
+     <int>2</int>
+    </void>
+    <void property="paquete">
+     <object class="co.edu.uniquindio.agencia.model.PaqueteTuristico">
+      <void property="cupoMaximo">
+       <int>25</int>
+      </void>
+      <void property="destinos">
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <object class="co.edu.uniquindio.agencia.model.Destino">
+          <void property="ciudad">
+           <string>Quindio</string>
+          </void>
+          <void property="clima">
+           <object class="java.lang.Enum" id="Clima0" method="valueOf">
+            <class>co.edu.uniquindio.agencia.model.Clima</class>
+            <string>CALIDO</string>
+           </object>
+          </void>
+          <void property="descripcion">
+           <string>Parque de atracciones cultural del eje cafetero</string>
+          </void>
+          <void property="nombre">
+           <string>Parque del cafe</string>
+          </void>
+          <void property="rutasImagenes">
+           <object class="java.util.ArrayList">
+            <void method="add">
+             <string>https://th.bing.com/th/id/R.978db653974d475a2863fc734c55dfc5?rik=7XHbgDThVn2iVA&amp;riu=http%3a%2f%2fwww.travelombia.com%2fwp-content%2fuploads%2f2015%2f01%2fparque-del-cafe-main.jpg&amp;ehk=qT%2ffzwRDhvnHs7tqew1f88mHfV23escmEPjnl7sP7gw%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0</string>
+            </void>
+            <void method="add">
+             <string>https://th.bing.com/th/id/R.8fa7778c8089a8c16f35ab357933a532?rik=Ge4tlcf4u9C2fQ&amp;riu=http%3a%2f%2fwww.mylifeisajourney.com%2fuploads%2f6%2f3%2f4%2f1%2f6341410%2fparque-del-cafe-view_orig.jpg&amp;ehk=lcsa5RLfTynSpu4y0%2fLrafI4yq9A57eu3QoYrTPce3c%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0</string>
+            </void>
+            <void method="add">
+             <string>https://th.bing.com/th/id/R.451f01636ab1ede2116be32279774b9c?rik=ylwh8%2bD%2fGXAnIw&amp;riu=http%3a%2f%2fwww.mylifeisajourney.com%2fuploads%2f6%2f3%2f4%2f1%2f6341410%2froller-coaster-parque-del-cafe-quindio_orig.jpg&amp;ehk=qFyQMMs856VTQX4IWzc0wRrn4%2fbso%2bOrgb%2bDvnn3BpE%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0</string>
+            </void>
+           </object>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="co.edu.uniquindio.agencia.model.Destino">
+          <void property="ciudad">
+           <string>mexico 3</string>
+          </void>
+          <void property="clima">
+           <object class="java.lang.Enum" method="valueOf">
+            <class>co.edu.uniquindio.agencia.model.Clima</class>
+            <string>FRIO</string>
+           </object>
+          </void>
+          <void property="descripcion">
+           <string>3131</string>
+          </void>
+          <void property="nombre">
+           <string>mexico</string>
+          </void>
+          <void property="rutasImagenes">
+           <object class="java.util.ArrayList">
+            <void method="add">
+             <string>3131</string>
+            </void>
+            <void method="add">
+             <string>313</string>
+            </void>
+            <void method="add">
+             <string>13131</string>
+            </void>
+           </object>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void property="duracion">
+       <int>1</int>
+      </void>
+      <void property="fechaFin">
+       <object class="java.time.LocalDate" method="parse">
+        <string>2023-11-22</string>
+       </object>
+      </void>
+      <void property="fechaInicio">
+       <object class="java.time.LocalDate" method="parse">
+        <string>2023-11-08</string>
+       </object>
+      </void>
+      <void property="nombre">
+       <string>Eje Cafetero</string>
+      </void>
+      <void property="precio">
+       <double>200000.0</double>
+      </void>
+      <void property="servicios">
+       <string>Hospedaje, Alimentación</string>
+      </void>
+     </object>
+    </void>
+    <void property="precioTotal">
+     <double>400000.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="co.edu.uniquindio.agencia.model.Reservas">
+    <void property="cliente">
+     <object class="co.edu.uniquindio.agencia.model.Clientes">
+      <void property="cedula">
+       <string>111</string>
+      </void>
+      <void property="contrasena">
+       <string>1234</string>
+      </void>
+      <void property="correo">
+       <string>santiago.betancourtv@uqvirtual.edu.co</string>
+      </void>
+      <void property="direccion">
+       <string>Armenia</string>
+      </void>
+      <void property="nombre">
+       <string>Santiago</string>
+      </void>
+      <void property="telefono">
+       <string>3152157717</string>
+      </void>
+     </object>
+    </void>
+    <void property="estado">
+     <object idref="EstadoReserva0"/>
+    </void>
+    <void property="fechaSolicitud">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2023-11-20</string>
+     </object>
+    </void>
+    <void property="fechaViaje">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2023-11-23</string>
+     </object>
+    </void>
+    <void property="numPersonas">
+     <int>2</int>
+    </void>
+    <void property="paquete">
+     <object class="co.edu.uniquindio.agencia.model.PaqueteTuristico">
+      <void property="cupoMaximo">
+       <int>25</int>
+      </void>
+      <void property="destinos">
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <object class="co.edu.uniquindio.agencia.model.Destino">
+          <void property="ciudad">
+           <string>Quindio</string>
+          </void>
+          <void property="clima">
+           <object idref="Clima0"/>
+          </void>
+          <void property="descripcion">
+           <string>Parque de atracciones cultural del eje cafetero</string>
+          </void>
+          <void property="nombre">
+           <string>Parque del cafe</string>
+          </void>
+          <void property="rutasImagenes">
+           <object class="java.util.ArrayList">
+            <void method="add">
+             <string>https://th.bing.com/th/id/R.978db653974d475a2863fc734c55dfc5?rik=7XHbgDThVn2iVA&amp;riu=http%3a%2f%2fwww.travelombia.com%2fwp-content%2fuploads%2f2015%2f01%2fparque-del-cafe-main.jpg&amp;ehk=qT%2ffzwRDhvnHs7tqew1f88mHfV23escmEPjnl7sP7gw%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0</string>
+            </void>
+            <void method="add">
+             <string>https://th.bing.com/th/id/R.8fa7778c8089a8c16f35ab357933a532?rik=Ge4tlcf4u9C2fQ&amp;riu=http%3a%2f%2fwww.mylifeisajourney.com%2fuploads%2f6%2f3%2f4%2f1%2f6341410%2fparque-del-cafe-view_orig.jpg&amp;ehk=lcsa5RLfTynSpu4y0%2fLrafI4yq9A57eu3QoYrTPce3c%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0</string>
+            </void>
+            <void method="add">
+             <string>https://th.bing.com/th/id/R.451f01636ab1ede2116be32279774b9c?rik=ylwh8%2bD%2fGXAnIw&amp;riu=http%3a%2f%2fwww.mylifeisajourney.com%2fuploads%2f6%2f3%2f4%2f1%2f6341410%2froller-coaster-parque-del-cafe-quindio_orig.jpg&amp;ehk=qFyQMMs856VTQX4IWzc0wRrn4%2fbso%2bOrgb%2bDvnn3BpE%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0</string>
+            </void>
+           </object>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void property="duracion">
+       <int>3</int>
+      </void>
+      <void property="fechaFin">
+       <object class="java.time.LocalDate" method="parse">
+        <string>2023-11-30</string>
+       </object>
+      </void>
+      <void property="fechaInicio">
+       <object class="java.time.LocalDate" method="parse">
+        <string>2023-11-01</string>
+       </object>
+      </void>
+      <void property="nombre">
+       <string>Quindio</string>
+      </void>
+      <void property="precio">
+       <double>100000.0</double>
+      </void>
+      <void property="servicios">
+       <string>Transporte, Hospedaje</string>
+      </void>
+     </object>
+    </void>
+    <void property="precioTotal">
+     <double>200000.0</double>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
